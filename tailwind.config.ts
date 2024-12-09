@@ -55,7 +55,11 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+			backgroundImage: {
+        'bg1-carousel': "url('/images/fundo1.png')",
+        'bg2-carousel': "url('/imeges/fundo2.png')",
+      }
   	}
   },
   plugins: [require("tailwindcss-animate")],
