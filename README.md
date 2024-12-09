@@ -18,5 +18,5 @@ bun dev
 
 #### Hardware
 
-###### Placa Mãe
-###### Memória Ram
+###### -- Placa Mãe
+###### -- Memória Ram
