@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Header } from "@/components/header/page";
+import { Navbar } from "@/components/navbar/page";
 
 export const metadata: Metadata = {
   title: "Loja Online",
@@ -14,7 +16,13 @@ export default function RootLayout({
   return (
     <html lang="pt-BR">
       <body>
-        {children}
+        <div className="container mx-auto w-screen h-screen">
+          <header>
+            <Header/> {/* Exibe o componente Header (Cabeçalho) */}
+            <Navbar/> {/* Exibe o componente Navbar (Barra de Menu ou Navegação ) */}
+          </header>
+          {children}
+        </div>        
       </body>
     </html>
   );

@@ -1,11 +1,10 @@
-import { Header } from "@/components/header/page";
-import { Navbar } from "@/components/navbar/page";
+import "@/app/page-style.css";
 
 export default function Page() {
   return (
-    <div className="w-screen h-screen">
-      <Header/> {/* Exibe o componente Header (Cabeçalho) */}
-      <Navbar/> {/* Exibe o componente Navbar (Barra de Menu ou Navegação ) */}
-    </div>
+    <main className="flex flex-col justify-between">
+      <div>...</div>
+      <div>...</div>
+    </main>
   );
 }

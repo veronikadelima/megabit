@@ -10,7 +10,7 @@ export const ProductCard = ({produtos}: ProductCardProps) => {
   return (
     <div className="container m-auto flex flex-wrap">
       {produtos.map((produto, index) => (
-      <Card key={index} className="w-60 h-96">
+      <Card key={index} className="w-60 h-96 mt-2 mr-2">
         <CardHeader className="">
           <img src={produto.image}/>
         </CardHeader>
