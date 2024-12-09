@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Produto } from "@/types/produtos";
 
+//Construção do Card de Exibição dos Produtos
 interface ProductCardProps {
   produtos: Produto[];
 }

@@ -5,10 +5,10 @@ import { placas_mae } from "@/data/produtos";
 
 export default function PlacaMaePage() {
   return (
-    <div>
+    <div className="w-screen h-screen">
       <Header/>
       <Navbar/>
-      <Carrocel produtos={placas_mae}/>
+      <Carrocel produtos={placas_mae}/> {/* Exibe o componente Carrocel apontando para os Produtos da Seção Placa Mãe */}
     </div>
   );
 } 

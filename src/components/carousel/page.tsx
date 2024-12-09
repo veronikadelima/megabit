@@ -5,12 +5,14 @@ import { Produto } from "@/types/produtos";
 
 interface CarrocelProps {
   produtos: Produto[];
-}
-  
+} // cria a interface CarrocelProps para Produtos, em que produtos recebe o array Produto.
+
+
 export function Carrocel({produtos}: CarrocelProps) {
   return (
     <Carousel className="w-full m-auto max-w-xs">
       <CarouselContent>
+        {/* mapeamento de produtos para relacionar produto por produto no carrocel */}
         {produtos.map((produto, index) => (
             <CarouselItem key={index}>
               <div className="p-1">

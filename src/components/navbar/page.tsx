@@ -1,6 +1,7 @@
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarSeparator, MenubarTrigger } from "@/components/ui/menubar";
 import Link from "next/link";
 
+//Construção do Navbar ou Barra de Menu ou Menu de Navegação
 
 export const Navbar = () => {
   return (

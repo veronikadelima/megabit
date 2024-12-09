@@ -20,3 +20,10 @@ bun dev
 
 ###### -- Placa Mãe
 ###### -- Memória Ram
+
+#### Software
+
+###### -- Jogos
+
+Criando em React/Next - Biblioteca Shadcn UI
+
