@@ -4,4 +4,5 @@ export type Produto = {
   modelo: string;
   valor: number;
   image: string;
+  oferta: boolean;
 }

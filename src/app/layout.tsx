@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="pt-BR">
       <body>
         <div className="container mx-auto w-screen h-screen">
-          <header>
+          <header className="block">
             <Header/> {/* Exibe o componente Header (Cabeçalho) */}
             <Navbar/> {/* Exibe o componente Navbar (Barra de Menu ou Navegação ) */}
           </header>
